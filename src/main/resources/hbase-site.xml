@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+   <property>
+      <name>hbase.rootdir</name>
+      <value>/hbase</value>
+   </property>
+
+   <property>
+      <name>zookeeper.znode.parent</name>
+      <value>/hbase</value>
+   </property>
+
+   <property>
+      <name>hbase.zookeeper.quorum</name>
+      <value>rbf05.bonc.com:2188,rbf06.bonc.com:2188,rbf07.bonc.com:2188</value>
+   </property>
+
+   <property>
+      <name>hbase.security.authentication</name>
+      <value>kerberos</value>
+   </property>
+
+   <property>
+      <name>hbase.security.authorization</name>
+      <value>true</value>
+   </property>
+
+<!--   <property>
+      <name>hbase.zookeeper.property.authProvider.1</name>
+      <value>org.apache.zookeeper.server.auth.SASLAuthenticationProvider</value>
+   </property>-->
+
+   <property>
+      <name>hbase.zookeeper.property.kerberos.removeHostFromPrincipal</name>
+      <value>true</value>
+   </property>
+
+   <property>
+      <name>hbase.zookeeper.property.kerberos.removeRealmFromPrincipal</name>
+      <value>true</value>
+   </property>
+
+   <property>
+      <name>hbase.regionserver.kerberos.principal</name>
+      <value>hbase/_HOST@BONC.COM</value>
+   </property>
+
+   <property>
+      <name>hbase.master.kerberos.principal</name>
+      <value>hbase/_HOST@BONC.COM</value>
+   </property>
+
+   <property>
+      <name>hbase.client.write.buffer</name>
+      <value>20971520</value>
+   </property>
+</configuration>
