@@ -1,5 +1,0 @@
-2020-07-23 19:10:33  [ main:0 ] - [ INFO ]  Process identifier=hconnection-0x1189dd52 connecting to ZooKeeper ensemble=rbf05.bonc.com:2188,rbf06.bonc.com:2188,rbf07.bonc.com:2188
-2020-07-23 19:10:35  [ main:1416 ] - [ INFO ]  bulkload locality sensitive enabled
-2020-07-23 19:10:35  [ main:1416 ] - [ INFO ]  Looking up current regions for table test
-2020-07-23 19:10:35  [ main:1563 ] - [ INFO ]  Configuring 1 reduce partitions to match current region count
-2020-07-23 19:10:35  [ main:1566 ] - [ INFO ]  Writing partition information to /user/chen/hbase-staging/partitions_f1da8aa5-1130-463f-85be-392ec6f83100
